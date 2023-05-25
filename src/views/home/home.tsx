@@ -6,7 +6,7 @@ import './home.module.less'
 const Home = (props: any): JSX.Element => {
   console.log(props)
   return (
-    <div styleName='home'>
+    <div styleName='home' className='container'>
       <NavLink
         to={APP_TEST}
       >

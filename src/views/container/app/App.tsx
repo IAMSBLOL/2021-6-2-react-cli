@@ -9,7 +9,7 @@ import './app.module.less'
 
 const App = () => {
   return (
-    <div styleName='app' style={{ width: '100%', height: '100%' }}>
+    <div styleName='app'>
 
       <Outlet />
     </div>
