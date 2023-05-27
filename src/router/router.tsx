@@ -1,5 +1,5 @@
 
-import * as React from 'react';
+import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import {
   APP_HOME, APP_TEST
@@ -60,5 +60,7 @@ const Routes = createBrowserRouter(routes);
 // router.navigate('/path', { replace: true });
 
 // // And instead of history.listen you can:
-// router.subscribe((state) => console.log('new state', state));
+// Routes.subscribe((state) => {
+//   console.log('new state', state)
+// });
 export default Routes;

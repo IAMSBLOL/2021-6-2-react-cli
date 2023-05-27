@@ -1,18 +1,19 @@
-# react cli
+```
+# react cli 2023
 
 
 ## 集成了哪些特性
-1. react17、readux、saga、router、antd
+1. react18、`@reduxjs/toolkit`、saga、router v6、antd
 2. eslint 本地运行时 + 编译时
-3. babel （除了个别提案感觉用起来会坑队友，基本都添加了）
+3. babel 
 4. webpack5
-5. CICD (自动化部署这一步暂时没空搞，最好还是jekins，不然需要中间服务管理tag)
+5. CICD
 6. docker
-7. css module
+7. babel css module
 8. env（参考cra）
 9. ts + js (可以混合开发，喜欢用啥不强制要求)
 11. 热更新
-12. 待补充...
+12. tailwindcss
 
 ### `yarn start`
 
@@ -50,6 +51,9 @@ eslint检测
 ### `yarn test` 
 暂未添加，正经前端搞啥自动化测试，是需求不够多吗
 
+### `yarn emcc` 
+编译cpp的wasm，前提是你安装了emcc
+
 ### 备注
 
 
@@ -62,4 +66,8 @@ eslint检测
  
  [babel](https://www.babeljs.cn/docs/)
  
- [WEBPACK 5.X](https://webpack.docschina.org/guides/getting-started/#creating-a-bundle).
+ [WEBPACK 5.X](https://webpack.docschina.org/guides/getting-started/#creating-a-bundle)
+
+ [EMCC](https://zhuanlan.zhihu.com/p/495213548).
+
+```

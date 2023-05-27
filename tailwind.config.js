@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  // content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {}
   },
@@ -9,5 +9,5 @@ module.exports = {
   corePlugins: {
     preflight: false
   },
-  content: ['index.html', './src/**/*.{js,jsx,ts,tsx,vue,html}'],
+  content: ['./public/index.html', './src/**/*.{js,jsx,ts,tsx,html}'],
 }

@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { APP_TEST } from '../../router'
 import './home.module.less'
 
-const Home = (props: any): JSX.Element => {
-  console.log(props)
+const Home = (): JSX.Element => {
   return (
     <div styleName='home' className='container'>
       <NavLink
